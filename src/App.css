@@ -1,0 +1,52 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background: url('https://www.example.com/hero-image.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+}
+
+.hero-section p {
+  font-size: 1.5em;
+}
+
+.hero-section button {
+  padding: 15px 30px;
+  background-color: #ff5733;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.category-card {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h2 {
+  font-size: 2em;
+}
+
+.news-section {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  text-align: center;
+}

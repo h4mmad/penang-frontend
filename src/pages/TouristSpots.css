@@ -1,0 +1,55 @@
+.tourist-spots {
+  padding: 20px;
+  text-align: center;
+  background-color: #e8f4f8; /* Light blue for a travel vibe */
+  min-height: 100vh;
+}
+
+.tourist-spots h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Deep navy for the title */
+}
+
+.spots-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.spot-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.spot-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.spot-item h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #2980b9; /* Bright blue for headings */
+}
+
+.spot-item p {
+  font-size: 1rem;
+  color: #7f8c8d; /* Subtle gray for descriptions */
+  padding: 0 10px 10px;
+}
+
+.spot-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

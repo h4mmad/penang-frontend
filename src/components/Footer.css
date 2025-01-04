@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links {
+    list-style: none;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
